@@ -1,0 +1,3 @@
+insert into products (name, brand, category, price, description, image_file_name,  created_at)
+values ('Iphone 12', 'Apple', 'Phones', 969, 'Apple Iphone 12, 64Gb, Black - Unlocked and compatible with any carrier of choice on GSM and CDMA networks. Tested for battery health and guaranted to come with a battery that exceeds 90% of original capacity.',
+'png-clipart-iphone-x-front-view-apple手机-iphone.png', CURRENT_TIMESTAMP);

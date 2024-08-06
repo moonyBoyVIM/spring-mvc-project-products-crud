@@ -1,0 +1,42 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-19127dff26c-794d6b9ab8895e0b": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "crud_db",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "crud_db",
+				"url": "jdbc:postgresql://localhost:5432/crud_db",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Розробка",
+			"color": "255,255,255",
+			"description": "Звичайна база даних для розробки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
